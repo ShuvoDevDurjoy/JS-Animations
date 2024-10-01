@@ -1,0 +1,47 @@
+*{
+    padding : 0 ; 
+    margin : 0 ; 
+    box-sizing : border-box ; 
+}
+
+body{
+    width : 100% ; 
+    height : 100% ; 
+    background-color: #171831 ;
+    color : white ; 
+}
+
+.container_type-1{
+    width : 100% ; 
+    height : 100vh ; 
+}
+
+.ov_h{
+    overflow : hidden ; 
+}
+
+.background_image{
+    width : 100% ; 
+    height : 100% ; 
+    z-index : -1 ; 
+}
+
+.background_image img{
+    width : 100% ; 
+    height : 100% ; 
+    background-size: cover ;
+}
+
+.container_content{
+    width : 100% ; 
+    height : 100% ; 
+    padding : 3rem ; 
+    font-size : 2rem; 
+    z-index : 100 ; 
+    display : flex ; 
+    align-items: center ;
+    gap : 20px ; 
+    position : absolute ; 
+    justify-content: center ;
+    flex-direction: column ;
+}
