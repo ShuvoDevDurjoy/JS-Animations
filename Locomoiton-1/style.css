@@ -75,7 +75,7 @@ body{
 @media screen and (max-width : 500px) {
     .container{
         width : 100% ; 
-        height : 100vw ; 
+        height : 170vw ; 
         overflow : hidden ; 
     }
 
